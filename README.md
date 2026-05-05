@@ -1,0 +1,2 @@
+This project uses RoboDK to control a UR5e robot arm and make it draw SVG patterns on a defined drawing plane.
+The Python script reads an SVG file, converts the SVG paths into robot motion points, and sends movement commands to the UR5e through RoboDK’s RDK interface. The robot then follows the generated path to reproduce the SVG pattern on the drawing board. The implementation is based on the uploaded Draw.py script.
